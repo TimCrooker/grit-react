@@ -1,6 +1,6 @@
 {
 	"name": "grit-react",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "my awesome new Grit generator",
 	"repository": {
 		"url": "TimCrooker/grit-react",
@@ -8,6 +8,10 @@
 	},
 	"author": "TimCrooker <timothycrooker@gmail.com> (https://github.com/TimCrooker)",
 	"license": "MIT",
+	"keywords": [
+		"grit-generator",
+		"grit"
+	],
 	"files": [
 		"generator.js",
 		"template/**"
