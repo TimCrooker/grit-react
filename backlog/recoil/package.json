@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "recoil": "^0.1.2"
+    "recoil": "^0.5.2"
   },
   "devDependencies": {
     "@types/recoil": "0.0.1"
