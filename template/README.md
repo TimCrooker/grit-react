@@ -1,15 +1,15 @@
 # <%= name %>
-<% const docsUrl = "https://github.com/pankod/superplate"; %>
+<% const docsUrl = ""; %>
 
-This project was generated with [superplate](<%- docsUrl %>).
+This project was generated with [perfectplate](<%- docsUrl %>).
 
 ## Getting Started
 
-superplate is a Next.js all-in-one project generator. Create your project with the tools you need without spending hours on setting them up.
+perfectplate is an all-in-one project generator. Create your project with the tools you need without spending hours on setting them up.
 
 ## Available Scripts
 
-### Running the development server.
+### Running the development server
 
 ```bash
     <%= pmRun %> dev
@@ -30,15 +30,6 @@ superplate is a Next.js all-in-one project generator. Create your project with t
 ## Learn More
 
 To learn more about **perfectplate**, please check out the [Documentation](<%- docsUrl %>).
-
-<% for (var i = 0; i < pluginsData.length; i++ ) { %>
-### **<%= pluginsData[i].name %>**
-
-<%= pluginsData[i].description %>
-
-[Go To Documentation](<%- pluginsData[i].url %>)
-
-<% } %>
 
 ## License
 
