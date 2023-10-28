@@ -5,7 +5,7 @@
 			"docker:run": "docker run --name perfectplate -dp 8005:8080/tcp perfectplate && start http://localhost:8005"
 		},
     "dependencies": {
-        "axios": "^0.21.1"
+        "axios": "^1.6.0"
     },
     "devDependencies": {
         "nock":"^13.0.11"
